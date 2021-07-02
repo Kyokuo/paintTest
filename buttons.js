@@ -1,9 +1,6 @@
 class Buttons{
-    constructor(nume,x,y){
-      this.x=x;
-      this.y=y;
-      this.nume = nume;
-      this.button=createButton(nume);
+    constructor(name,x,y){
+      this.button=createButton(name);
       this.button.position(x,y);
     }
   }
